@@ -1,2 +1,123 @@
+$navbar-default-bg: black;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+
+float: left;
+
+font-size: 1.7em;
+
+color: #fff;
+
+text-transform: uppercase;
+
+letter-spacing: -1px;
+
+font-weight: bold;
+
+}
+
+.texnav {
+    
+    float: left;
+
+    color: #fff;
+    
+    text-transform: uppercase;
+    
+    letter-spacing: -1px;
+    
+    font-weight: bold;
+
+    
+}
+
+.center {
+    
+    text-align: center;
+}
+
+.jumbotron {
+
+background-image: asset-url('Black_sky.jpg');
+
+
+
+height: 550px;
+
+}
+
+.btn-xlarge {
+
+font-size: 1.7em;
+
+background-color: black;
+
+}
+
+.btn-xlarge:hover {
+
+font-size: 1.7em;
+
+background-color: black;
+
+
+
+}
+
+footer {
+
+    margin-top: 45px;
+    
+    padding-top: 5px;
+    
+    border-top: 1px solid #eaeaea;
+    
+    color: #777;
+
+}
+
+footer small {
+     float: left;
+    
+}
+
+footer ul {
+    
+    float: right;
+    list-style: none;
+}
+
+.articles-actions {
+    
+    border-top: 1px solid #eaeaea;
+    
+    padding-top: 5px;
+    
+}
+
+.description {
+    
+    margin-top: 0px;
+}
+
+.article-title {
+
+font-weight: bold;
+
+font-size: 1.5em;
+
+}
+
+.article-body {
+
+border-top: 1px solid #eaeaea;
+
+padding-top: 15px;
+
+padding-bottom: 15px;
+
+}
+ 
