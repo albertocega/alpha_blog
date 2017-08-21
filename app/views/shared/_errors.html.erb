@@ -1,26 +1,26 @@
 <% if obj.errors.any? %>
-<div class="row">
-    <div class="col-sm-8 col-sm-offset-2" >
-        <div class="panel panel-danger">
-            <div class ="panel-heading">
-                <div class ="panel-title">
-                    <h2>The following errors prevented the article from getting created</h2>
-                </div>
-                <div class ="panel-body">
-                        <ul>
-    
-                            <% obj.errors.full_messages.each do |msg| %>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2" >
+            <div class="panel panel-danger">
+                <div class ="panel-heading">
+                    <div class ="panel-title">
+                        <h2>The following errors prevented the article from getting created</h2>
+                    </div>
+                    <div class ="panel-body">
+                            <ul>
+        
+                                <% obj.errors.full_messages.each do |msg| %>
+                                
+                                <li><%= msg %></li>
+                                
+                                <% end %>
                             
-                            <li><%= msg %></li>
-                            
-                            <% end %>
-                        
-                        </ul>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </div>
-    
-</div>
 
 <% end %>
